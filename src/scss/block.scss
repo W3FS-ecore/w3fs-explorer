@@ -1,0 +1,36 @@
+.block {
+  min-height: 100%;
+  background: #f6f5fa;
+  .block-title{
+    margin-top: 30px;
+  }
+  .disabled {
+    cursor: not-allowed;
+    filter: grayscale(100%);
+  }
+  .block-num {
+    font-size: 18px;
+  }
+  .arrow-left {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: bottom;
+    background-image: url(../assets/last.png);
+  }
+  .arrow-right {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: bottom;
+    background-image: url(../assets/next.png);
+  }
+  .el-button + .el-button {
+    margin-left: 0;
+  }
+  .linkHash {
+    a {
+      color: #8a63fe;
+    }
+  }
+}

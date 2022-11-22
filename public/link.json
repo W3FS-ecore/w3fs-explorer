@@ -1,0 +1,26 @@
+{
+    "coincap": "https://api.coincap.io",
+    "CHAIN_RPC": "http://192.168.53.26:8545",
+    "Contact": [
+        {
+            "name": "telegram",
+            "url": ""
+        },
+        {
+            "name": "twitter",
+            "url": ""
+        },
+        {
+            "name": "linkin",
+            "url": ""
+        },
+        {
+            "name": "facebook",
+            "url": ""
+        },
+        {
+            "name": "email",
+            "url": ""
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+
+.address {
+  min-height: 100%;
+  .icon-copy {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: bottom;
+    background-image: url(../assets/copy.png);
+  }
+  .icon-qrcode {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: bottom;
+    background-image: url(../assets/qrcode.png);
+  }
+  .adr-hash {
+    font-size: 18px;
+  }
+  .qr-content {
+    img {
+      margin: 0 auto;
+    }
+  }
+  .el-dialog {
+    border-radius: 10px;
+  }
+  .el-dialog__header {
+    color: #150b42;
+    font-family: "PingFang-SC-Heavy","Microsoft YaHei";
+    text-align: center;
+    border-bottom: 1px solid #e4deff;
+  }
+  .adr-content {
+    background: #fff;
+    box-shadow: 2px 4px 13px 0 rgba(0, 0, 0, .05);
+    border-radius: 6px;
+  }
+}

@@ -1,0 +1,32 @@
+
+.transaction {
+  min-height: 100%;
+  .icon-copy {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: bottom;
+    background-image: url(../assets/copy.png);
+  }
+  .linkHash {
+    a {
+      color: #8a63fe;
+    }
+  }
+  .tx-hash {
+    font-size: 18px;
+    word-break: break-all;
+  }
+  .tx-block {
+    a {
+      color: #100834;
+    }
+  }
+  .tx-status{
+    color: #de4437;
+  }
+  .tx-success {
+    color: #2fc585;
+  }
+  
+}
